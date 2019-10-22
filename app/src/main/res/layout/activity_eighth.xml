@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EighthActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/menu_class8" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        style="@style/MyTextOrange"
+        android:text="Banana" />
+
+    <TextView
+        style="@style/MyTextOrange"
+        android:text="Pineapple" />
+
+    <TextView
+        style="@style/MyTextOrange"
+        android:text="Pineapple" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:onClick="onFab8Click"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        app:srcCompat="@drawable/ic_exit_to_app_black_24dp" />
+
+</LinearLayout>

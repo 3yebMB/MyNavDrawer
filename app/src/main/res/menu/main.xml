@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/standard"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_standard"
+        android:title="standard"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/puple"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_puple"
+        android:title="puple"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/brown"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_brown"
+        android:title="brown"
+        app:showAsAction="always" />
+</menu>
